@@ -1,0 +1,38 @@
+body{
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;    
+}
+main{
+    color: solid black;
+    margin: 0 auto;
+    width: 380px;
+    padding: auto;
+}
+h2{
+    border-bottom: 1px solid black;
+}
+img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+section {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: #e6dfdf;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;    
+}
