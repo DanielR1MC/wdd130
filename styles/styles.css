@@ -1,9 +1,11 @@
+
 main{
   max-width: 840px;
 }
 nav {
   background-color: darkblue;
   padding: 10px;
+  display: flex;
 }
 nav a {
   color: white;
