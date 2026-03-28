@@ -68,7 +68,8 @@ h1 {
 }
 .footer {
   background-color: var(--secondary-color);
-  color: var(--accent2-color)
+  color: var(--accent2-color);
+  align-items: center;
 }
 .socialmedia img {
     width: 75px;
