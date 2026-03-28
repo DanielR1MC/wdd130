@@ -21,6 +21,10 @@ body {
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
+  display: flex;                /* Activa Flexbox */
+  justify-content: space-between; /* Logo a la izquierda, Nav a la derecha */
+  align-items: center;          /* Centra verticalmente logo y links */
+  padding: 10px 20px;           /* Espaciado interno */
 }
 
 header, main, footer {
