@@ -2,7 +2,7 @@
   --primary-color: #303a33;
   --secondary-color: #f4a361; 
   --accent1-color: #344f5a; 
-  --accent2-color: #856404; 
+  --accent2-color: #f1c130; 
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -21,10 +21,10 @@ body {
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  display: flex;                /* Activa Flexbox */
-  justify-content: space-between; /* Logo a la izquierda, Nav a la derecha */
-  align-items: center;          /* Centra verticalmente logo y links */
-  padding: 10px 20px;           /* Espaciado interno */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 header, main, footer {
@@ -43,8 +43,8 @@ nav, p, section, article {
 }
 
 nav a {
-  display: inline-block; /* Permite que el espacio se aplique correctamente */
-  margin-right: 25px;    /* Crea el espacio entre los links */
+  display: inline-block;
+  margin-right: 25px;
   color: var(--secondary-color);
   text-decoration: none;
 }
