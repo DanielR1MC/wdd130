@@ -41,6 +41,7 @@ nav, p, section, article {
 }
 
 h1 {
+
   position: absolute;
   top: 20px;
   width: 100%;
@@ -51,9 +52,22 @@ h1 {
   color: #fff; 
 }
 .hero article {
-    position: absolute;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  border-radius: 8px;
 }
 .hero article img {
   float: right;
-  width: 125px;
+  width: 150px;
+  height: auto;
+  margin-left: 15px;
+}
+.socialmedia img {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
 }
