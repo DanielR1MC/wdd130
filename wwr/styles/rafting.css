@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #056b24;
+  --primary-color: #303a33;
   --secondary-color: #f4a361; 
   --accent1-color: #344f5a; 
-  --accent2-color: #f1cb69; 
+  --accent2-color: #856404; 
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +19,6 @@ body {
 }
 
 header {
-  /* El video pide usar primary para el fondo y accent2 para el texto */
   background-color: var(--primary-color);
   color: var(--accent2-color);
 }
@@ -39,8 +38,9 @@ nav, p, section, article {
   padding: 8px;
 }
 
-/* Para que la auditoría detecte el uso de --secondary-color */
 nav a {
+  display: inline-block; /* Permite que el espacio se aplique correctamente */
+  margin-right: 25px;    /* Crea el espacio entre los links */
   color: var(--secondary-color);
   text-decoration: none;
 }
@@ -82,13 +82,12 @@ h1 {
   margin-left: 15px;
 }
 
-/* Footer simple como el ejemplo */
 footer {
   background-color: var(--accent2-color);
   color: var(--primary-color);
 }
 
 .socialmedia img {
-  width: 40px; /* Tamaño normal para iconos */
+  width: 50px; 
   height: auto;
 }
