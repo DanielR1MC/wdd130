@@ -1,10 +1,14 @@
+:root {
+  --strong-color: #111;
+}
+
 main{
   max-width: 840px;
   margin: 0 auto;
   padding: 20px;
 }
 nav {
-  background-color: darkblue;
+  background-color: var(--strong-color);
   padding: 10px;
   display: flex;
 }
@@ -14,7 +18,7 @@ nav a {
   padding: 20px;
 }
 h1 {
-  color: darkblue;
+  color: var(--strong-color);
 }
 aside.box {
   position: relative;
