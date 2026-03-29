@@ -1,4 +1,3 @@
-
 main{
   max-width: 840px;
   margin: 0 auto;
@@ -18,6 +17,7 @@ h1 {
   color: darkblue;
 }
 aside.box {
+  position: relative;
   clear: both;
   width: 100%;
   max-width: 400px;
@@ -70,4 +70,10 @@ aside {
   padding: 1rem;
   margin: 1rem;
   text-align: center;
+}
+aside h2 {
+  position: absolute;
+  top: 60px;
+  left: 140px;
+  width: 2px;
 }
