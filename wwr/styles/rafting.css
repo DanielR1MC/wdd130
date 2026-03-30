@@ -105,6 +105,10 @@ footer {
   color: var(--primary-color);
   position: relative;
   margin-top: 100px;
+  /* NEW Week 4*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .socialmedia img {
@@ -112,7 +116,7 @@ footer {
   height: auto;
 }
 
-/*New*/
+/*New 5 images*/
 
 section { 
   display: flex;
