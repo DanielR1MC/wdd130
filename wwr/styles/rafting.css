@@ -21,9 +21,7 @@ body {
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 5px 20px;
   /*Week 4*/
   display: grid;
