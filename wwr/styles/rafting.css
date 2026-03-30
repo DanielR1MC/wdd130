@@ -142,25 +142,25 @@ section img {
 }
 /*Figure PART*/
 
-.adventures {
+.funnyname {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   text-align: center;
 }
 
-.adventures figure {
+.funnyname figure {
   margin: 10px;
   flex: 1;
 }
-.adventures img {
+.funnyname img {
   width: 100%;
   height: 100px;
   object-fit: cover;
   display: block;
 }
 
-.adventures figcaption {
+.funnyname figcaption {
   margin-top: 10px;
   font-style: italic;
   font-size: 0.9rem;
