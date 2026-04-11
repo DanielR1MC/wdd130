@@ -68,14 +68,14 @@ footer {
   width: 50px; 
   height: auto;
 }
-le {
+li {
   width: 100%;
   padding: 16px;
   text-align: center;
   color: var(--primary-color);
   display: block;
 }
-le h1, le p {
+li h1, li p {
   margin: 0px;
   line-height: 10px;
 }
@@ -87,7 +87,7 @@ h1 {
   opacity: 0.75;
 }
 section{
-  background-color: gray;
+  background-color: rgb(211, 211, 211);
 }
 section, h2{
   display: block;
@@ -113,7 +113,7 @@ section, h2{
 
 .clean_boxx {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin: 20px 0;
     align-items: start;
