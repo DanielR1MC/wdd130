@@ -167,14 +167,14 @@ section img {
   opacity: 0.75;
 }
 
-li {
+aside {
   width: 100%;
   padding: 16px;
   text-align: center;
   color: var(--primary-color);
   display: block;
 }
-li h1, li p {
+aside h1, aside p {
   margin: 0px;
   line-height: 10px;
 }
