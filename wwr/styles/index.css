@@ -68,3 +68,71 @@ footer {
   width: 50px; 
   height: auto;
 }
+
+.hero {
+    position: relative; 
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left:  125px;
+    font-family: var(--heading-font);
+    color: var(--pure-white);
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+header img {
+    width: 120px;
+    height: auto;
+}
+
+  .hero-message-box {
+    position: absolute;
+    bottom: 30px;      /* Distancia desde el fondo de la imagen */
+    left: 50%;         /* Lo mueve al centro horizontal */
+    transform: translateX(-50%); /* Ajuste exacto para centrarlo */
+    display: inline-block;
+    text-align: center;
+}
+
+.ready-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para que se note */
+    color: var(--pure-white);
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Estilos para el link "Available Trips" */
+.available-link {
+    position: absolute;
+    right: 0;          /* Alineado a la derecha del texto de arriba */
+    bottom: -35px;     /* Justo debajo del cuadro negro */
+    
+    background-color: var(--secondary-color); /* Usamos tu naranja */
+    color: var(--primary-color) !important;   /* Texto oscuro para contraste */
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.available-link:hover {
+    background-color: var(--accent2-color); /* Cambia al azul al pasar el mouse */
+    color: var(--pure-white) !important;
+}
