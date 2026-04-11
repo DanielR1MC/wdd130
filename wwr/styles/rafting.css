@@ -5,6 +5,8 @@
   --accent2-color: #2192d3; 
   --pure-white: #ffffff;
   --hero-bg-color: #ffffffcc;
+  --good-font: #c5bdbd;
+  --good-border: solid #ccc; 
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -178,7 +180,7 @@ li h1, li p {
 }
 
 .employee{
-  background-color: rgb(197, 189, 189);
+  background-color: var(--good-font);
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -217,7 +219,7 @@ form input[type="email"],
 form textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px var(--good-border);
     border-radius: 4px;
 }
 .radio-group {
@@ -227,8 +229,7 @@ form textarea {
     margin: 5px 0;
 }
 button[type="submit"] {
-    background-color: #e0e0e0;
-    border: 1px solid #999;
+    border: 1px var(--good-border);
     padding: 10px;
     cursor: pointer;
     margin-top: 10px;
