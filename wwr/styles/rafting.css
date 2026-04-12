@@ -296,12 +296,12 @@ button[type="submit"] {
 table {
     width: 100%;
     border-collapse: collapse;
-    background: var(--pure-white);
+    background: var(--another-white);
 }
 th, td {
     padding: 15px;
     text-align: left;
-    border-bottom: 1px var(--another-white);
+    border-bottom: 1px var(--pure-white );
 }
 th {
     background-color: var(--primary-color);
