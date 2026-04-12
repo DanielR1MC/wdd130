@@ -246,7 +246,11 @@ button[type="submit"] {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
     border: 1px solid #eee;
+}
+.trip-card:hover {
+    transform: translateY(-10px);
 }
 .trip-card img {
     width: 100%;
