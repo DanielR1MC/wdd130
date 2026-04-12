@@ -359,18 +359,20 @@ header img {
     position: relative;
     max-width: 840px;
     margin: 20px auto;
-    background-image: url('images/water-texture.jpg'); 
     background-size: cover;
     background-position: center;
     overflow: hidden;
     font-family: Arial, sans-serif;
 }
 .top-banner-overlay {
-    background-color: rgba(33, 146, 211, 0.85);
     color: var(--pure-white);
     text-align: center;
     padding: 30px;
     border: none;
+    background-color: var(--accent2-color);
+    width: 100%;
+    margin: 0;
+    padding: 20px;
 }
 .top-banner-overlay h2 {
     font-family: var(--heading-font);
@@ -383,10 +385,10 @@ header img {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin: 20px 0;
+    width: 100%;
 }
 .intro-block p {
-    margin: 5px 0;
-    font-weight: bold;
+    margin: 5px 0;  
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 .content-blocks {
@@ -441,13 +443,14 @@ header img {
     margin-top: 50px;
     box-shadow: inset 0 4px 10px rgba(33, 146, 211, 0.3); 
     border-top: none;
+    width: 100%;
+    margin: 0;
 }
 .bottom-banner-overlay h3 {
     margin: 0;
     font-size: 1.5rem;
 } 
 
-/*----------------------------------------------------------*/
 .content-blocks {
     display: flex;
     flex-direction: column;
@@ -470,11 +473,13 @@ header img {
     width: fit-content; 
     max-width: 90%;
 }
-.pro-text { text-align: left; }
+.pro-text {
+    text-align: left;
+ }
 .chill-text {
      text-align: right; 
      margin-left: 40px;
-    }
+}
 .side-photo {
     width: 100%;
     height: 100%;
@@ -486,15 +491,9 @@ header img {
     margin: 40px auto;
     background-color: #f0f0f0;
     overflow: hidden;
-}
-.top-banner-overlay {
-    background-color: var(--accent2-color);
-    color: var(--pure-white);
-    text-align: center;
-    padding: 20px;
+    padding: 0; 
 }
 .intro-block {
-    background-color: #777; /* Color gris del video */
     color: var(--pure-white);
     text-align: center;
     padding: 20px;
@@ -508,7 +507,6 @@ header img {
     margin-bottom: 20px;
 }
 .pro-text, .chill-text {
-    background-color: #444;
     color: white;
     padding: 40px;
     height: 100%;
@@ -524,7 +522,6 @@ header img {
     object-fit: cover;
 }
 .bottom-banner-overlay {
-    background-color: #111;
     color: white;
     padding: 30px;
     text-align: center;
@@ -538,26 +535,34 @@ header img {
     border-radius: 4px;
 }
 .trips-callout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     padding: 40px 20px;
     background-color: #f9f9f9;
-    margin-top: 20px;
+    width: 100%;
+    margin: 20px auto 0 !important;
+    box-sizing: border-box;
 }
 
-.trips-callout p {
+.trips-callout h4 {
+    font-family: var(--body-font) !important;
     font-size: 1.2rem;
     color: var(--primary-color);
-    margin-bottom: 20px;
-    font-weight: bold;
+    margin: 0 0 20px 0 !important;
+    padding: 0;
 }
 
 .btn-trips {
-    display: inline-block;
+display: inline-block;
     padding: 12px 30px;
     background-color: var(--accent2-color);
     color: var(--pure-white);
     text-decoration: none;
     font-weight: bold;
     border-radius: 50px;
+    font-family: var(--body-font) !important;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
