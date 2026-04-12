@@ -247,7 +247,7 @@ button[type="submit"] {
     background: var(--pure-white);
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px var(--pure_color_for_no_reason);
     transition: transform 0.3s ease;
     border: 1px solid var(--hero-bg-color);
 }
