@@ -3,8 +3,7 @@
 }
 
 main {
-  max-width: 840px;
-  /* This should put the text at the center + deleting something below*/
+  /*max-width: 840px;  This should put the text at the center + deleting something below*/
   margin: 0 auto;
   padding: 20px;
 }
